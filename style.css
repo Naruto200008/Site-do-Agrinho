@@ -2,14 +2,14 @@ body {
     font-family: sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background-color: #cfcfcf; /* Cor de fundo Cinza do cenário*/
     color: #333;
 }
 
 header {
     background-color: #5cb85c; /* Verde tema Agrinho */
-    color: white;
-    padding: 20px;
+    color: white; /*Cor das letras*/
+    padding: 20px; /* O preenchimento de 20 pixels no cabeçario*/
     text-align: center;
 }
 img {
@@ -29,7 +29,7 @@ img {
 header h1 {
     margin-bottom: 5px;
 }
-
+/* As Imagens acima, seus tamanhos e suas margens*/
 main {
     padding: 20px;
 }
@@ -72,14 +72,14 @@ section h2 {
 }
 
 footer {
-    background-color: #333;
-    color: white;
+    background-color: #333; /* Cor do fundo do rodapé */
+    color: white; /* Cor das letras */
     text-align: center;
     padding: 10px;
-    position: fixed;
+    position: fixed; /* posição fixa */
     bottom: 0;
-    width: 100%;
-}
+    width: 100%; /* largura do rodapé */
+} 
 .agro1{
     display: flex;
     margin: 0, 10px;
